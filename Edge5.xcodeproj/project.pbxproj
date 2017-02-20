@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E02935D21E5B0F7D00892028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935D11E5B0F7D00892028 /* AppDelegate.swift */; };
+		E02935D41E5B0F7D00892028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935D31E5B0F7D00892028 /* ViewController.swift */; };
+		E02935D71E5B0F7D00892028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02935D51E5B0F7D00892028 /* Main.storyboard */; };
+		E02935D91E5B0F7D00892028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02935D81E5B0F7D00892028 /* Assets.xcassets */; };
+		E02935DC1E5B0F7D00892028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02935DA1E5B0F7D00892028 /* LaunchScreen.storyboard */; };
+		E02935E71E5B0F7D00892028 /* Edge5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935E61E5B0F7D00892028 /* Edge5Tests.swift */; };
+		E02935F21E5B0F7E00892028 /* Edge5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935F11E5B0F7E00892028 /* Edge5UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E02935E31E5B0F7D00892028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E02935C61E5B0F7D00892028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02935CD1E5B0F7D00892028;
+			remoteInfo = Edge5;
+		};
+		E02935EE1E5B0F7E00892028 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E02935C61E5B0F7D00892028 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E02935CD1E5B0F7D00892028;
+			remoteInfo = Edge5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E02935CE1E5B0F7D00892028 /* Edge5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edge5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02935D11E5B0F7D00892028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E02935D31E5B0F7D00892028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E02935D61E5B0F7D00892028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E02935D81E5B0F7D00892028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E02935DB1E5B0F7D00892028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E02935DD1E5B0F7D00892028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02935E21E5B0F7D00892028 /* Edge5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Edge5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02935E61E5B0F7D00892028 /* Edge5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge5Tests.swift; sourceTree = "<group>"; };
+		E02935E81E5B0F7E00892028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02935ED1E5B0F7E00892028 /* Edge5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Edge5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E02935F11E5B0F7E00892028 /* Edge5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge5UITests.swift; sourceTree = "<group>"; };
+		E02935F31E5B0F7E00892028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E02935CB1E5B0F7D00892028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02935DF1E5B0F7D00892028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02935EA1E5B0F7E00892028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E02935C51E5B0F7D00892028 = {
+			isa = PBXGroup;
+			children = (
+				E02935D01E5B0F7D00892028 /* Edge5 */,
+				E02935E51E5B0F7D00892028 /* Edge5Tests */,
+				E02935F01E5B0F7E00892028 /* Edge5UITests */,
+				E02935CF1E5B0F7D00892028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E02935CF1E5B0F7D00892028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E02935CE1E5B0F7D00892028 /* Edge5.app */,
+				E02935E21E5B0F7D00892028 /* Edge5Tests.xctest */,
+				E02935ED1E5B0F7E00892028 /* Edge5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E02935D01E5B0F7D00892028 /* Edge5 */ = {
+			isa = PBXGroup;
+			children = (
+				E02935D11E5B0F7D00892028 /* AppDelegate.swift */,
+				E02935D31E5B0F7D00892028 /* ViewController.swift */,
+				E02935D51E5B0F7D00892028 /* Main.storyboard */,
+				E02935D81E5B0F7D00892028 /* Assets.xcassets */,
+				E02935DA1E5B0F7D00892028 /* LaunchScreen.storyboard */,
+				E02935DD1E5B0F7D00892028 /* Info.plist */,
+			);
+			path = Edge5;
+			sourceTree = "<group>";
+		};
+		E02935E51E5B0F7D00892028 /* Edge5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E02935E61E5B0F7D00892028 /* Edge5Tests.swift */,
+				E02935E81E5B0F7E00892028 /* Info.plist */,
+			);
+			path = Edge5Tests;
+			sourceTree = "<group>";
+		};
+		E02935F01E5B0F7E00892028 /* Edge5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E02935F11E5B0F7E00892028 /* Edge5UITests.swift */,
+				E02935F31E5B0F7E00892028 /* Info.plist */,
+			);
+			path = Edge5UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E02935CD1E5B0F7D00892028 /* Edge5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02935F61E5B0F7E00892028 /* Build configuration list for PBXNativeTarget "Edge5" */;
+			buildPhases = (
+				E02935CA1E5B0F7D00892028 /* Sources */,
+				E02935CB1E5B0F7D00892028 /* Frameworks */,
+				E02935CC1E5B0F7D00892028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Edge5;
+			productName = Edge5;
+			productReference = E02935CE1E5B0F7D00892028 /* Edge5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E02935E11E5B0F7D00892028 /* Edge5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02935F91E5B0F7E00892028 /* Build configuration list for PBXNativeTarget "Edge5Tests" */;
+			buildPhases = (
+				E02935DE1E5B0F7D00892028 /* Sources */,
+				E02935DF1E5B0F7D00892028 /* Frameworks */,
+				E02935E01E5B0F7D00892028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02935E41E5B0F7D00892028 /* PBXTargetDependency */,
+			);
+			name = Edge5Tests;
+			productName = Edge5Tests;
+			productReference = E02935E21E5B0F7D00892028 /* Edge5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E02935EC1E5B0F7E00892028 /* Edge5UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E02935FC1E5B0F7E00892028 /* Build configuration list for PBXNativeTarget "Edge5UITests" */;
+			buildPhases = (
+				E02935E91E5B0F7E00892028 /* Sources */,
+				E02935EA1E5B0F7E00892028 /* Frameworks */,
+				E02935EB1E5B0F7E00892028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E02935EF1E5B0F7E00892028 /* PBXTargetDependency */,
+			);
+			name = Edge5UITests;
+			productName = Edge5UITests;
+			productReference = E02935ED1E5B0F7E00892028 /* Edge5UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E02935C61E5B0F7D00892028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Jakub Lawicki";
+				TargetAttributes = {
+					E02935CD1E5B0F7D00892028 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					E02935E11E5B0F7D00892028 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E02935CD1E5B0F7D00892028;
+					};
+					E02935EC1E5B0F7E00892028 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E02935CD1E5B0F7D00892028;
+					};
+				};
+			};
+			buildConfigurationList = E02935C91E5B0F7D00892028 /* Build configuration list for PBXProject "Edge5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E02935C51E5B0F7D00892028;
+			productRefGroup = E02935CF1E5B0F7D00892028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E02935CD1E5B0F7D00892028 /* Edge5 */,
+				E02935E11E5B0F7D00892028 /* Edge5Tests */,
+				E02935EC1E5B0F7E00892028 /* Edge5UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E02935CC1E5B0F7D00892028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02935DC1E5B0F7D00892028 /* LaunchScreen.storyboard in Resources */,
+				E02935D91E5B0F7D00892028 /* Assets.xcassets in Resources */,
+				E02935D71E5B0F7D00892028 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02935E01E5B0F7D00892028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02935EB1E5B0F7E00892028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E02935CA1E5B0F7D00892028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02935D41E5B0F7D00892028 /* ViewController.swift in Sources */,
+				E02935D21E5B0F7D00892028 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02935DE1E5B0F7D00892028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02935E71E5B0F7D00892028 /* Edge5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E02935E91E5B0F7E00892028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E02935F21E5B0F7E00892028 /* Edge5UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E02935E41E5B0F7D00892028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E02935CD1E5B0F7D00892028 /* Edge5 */;
+			targetProxy = E02935E31E5B0F7D00892028 /* PBXContainerItemProxy */;
+		};
+		E02935EF1E5B0F7E00892028 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E02935CD1E5B0F7D00892028 /* Edge5 */;
+			targetProxy = E02935EE1E5B0F7E00892028 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E02935D51E5B0F7D00892028 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02935D61E5B0F7D00892028 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E02935DA1E5B0F7D00892028 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E02935DB1E5B0F7D00892028 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E02935F41E5B0F7E00892028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E02935F51E5B0F7E00892028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E02935F71E5B0F7E00892028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Edge5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jakub.Edge5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E02935F81E5B0F7E00892028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Edge5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jakub.Edge5;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E02935FA1E5B0F7E00892028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Edge5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jakub.Edge5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edge5.app/Edge5";
+			};
+			name = Debug;
+		};
+		E02935FB1E5B0F7E00892028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Edge5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jakub.Edge5Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Edge5.app/Edge5";
+			};
+			name = Release;
+		};
+		E02935FD1E5B0F7E00892028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Edge5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jakub.Edge5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Edge5;
+			};
+			name = Debug;
+		};
+		E02935FE1E5B0F7E00892028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Edge5UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jakub.Edge5UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Edge5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E02935C91E5B0F7D00892028 /* Build configuration list for PBXProject "Edge5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02935F41E5B0F7E00892028 /* Debug */,
+				E02935F51E5B0F7E00892028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E02935F61E5B0F7E00892028 /* Build configuration list for PBXNativeTarget "Edge5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02935F71E5B0F7E00892028 /* Debug */,
+				E02935F81E5B0F7E00892028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E02935F91E5B0F7E00892028 /* Build configuration list for PBXNativeTarget "Edge5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02935FA1E5B0F7E00892028 /* Debug */,
+				E02935FB1E5B0F7E00892028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E02935FC1E5B0F7E00892028 /* Build configuration list for PBXNativeTarget "Edge5UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E02935FD1E5B0F7E00892028 /* Debug */,
+				E02935FE1E5B0F7E00892028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E02935C61E5B0F7D00892028 /* Project object */;
+}
