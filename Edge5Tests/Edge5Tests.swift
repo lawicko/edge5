@@ -21,16 +21,14 @@ class Edge5Tests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
+    func testBasketAddItem() {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+        XCTAssertEqual(Basket.sharedInstance.items.count, 0, "Empty basket should have zero items")
+        
+        for i in 0..<4 {
+            Basket.sharedInstance.addItem(item: Item(name: "item"+String(i), price: NSDecimalNumber(decimal:NSNumber(value:50*i).decimalValue) as Decimal))
         }
+        
+        XCTAssertEqual(Basket.sharedInstance.items.count, 4, "Basket should have 4 items")
     }
-    
 }

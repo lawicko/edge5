@@ -8,12 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		E02935D21E5B0F7D00892028 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935D11E5B0F7D00892028 /* AppDelegate.swift */; };
-		E02935D41E5B0F7D00892028 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935D31E5B0F7D00892028 /* ViewController.swift */; };
-		E02935D71E5B0F7D00892028 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02935D51E5B0F7D00892028 /* Main.storyboard */; };
 		E02935D91E5B0F7D00892028 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E02935D81E5B0F7D00892028 /* Assets.xcassets */; };
-		E02935DC1E5B0F7D00892028 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E02935DA1E5B0F7D00892028 /* LaunchScreen.storyboard */; };
 		E02935E71E5B0F7D00892028 /* Edge5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935E61E5B0F7D00892028 /* Edge5Tests.swift */; };
 		E02935F21E5B0F7E00892028 /* Edge5UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935F11E5B0F7E00892028 /* Edge5UITests.swift */; };
+		E02936011E5B0FCE00892028 /* ShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02935FF1E5B0FCE00892028 /* ShopViewController.swift */; };
+		E02936021E5B0FCE00892028 /* ShopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02936001E5B0FCE00892028 /* ShopViewController.xib */; };
+		E02936051E5B0FFE00892028 /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02936031E5B0FFE00892028 /* BasketViewController.swift */; };
+		E02936061E5B0FFE00892028 /* BasketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02936041E5B0FFE00892028 /* BasketViewController.xib */; };
+		E02936081E5B122100892028 /* Items.plist in Resources */ = {isa = PBXBuildFile; fileRef = E02936071E5B122100892028 /* Items.plist */; };
+		E029360B1E5B16AE00892028 /* ShopViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02936091E5B16AE00892028 /* ShopViewCell.swift */; };
+		E029360C1E5B16AE00892028 /* ShopViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E029360A1E5B16AE00892028 /* ShopViewCell.xib */; };
+		E029360E1E5B1F2900892028 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E029360D1E5B1F2900892028 /* LaunchScreen.xib */; };
+		E0AF28691E5B4CBA001B7C68 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF28681E5B4CBA001B7C68 /* Basket.swift */; };
+		E0AF286C1E5DEB9C001B7C68 /* BasketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF286A1E5DEB9C001B7C68 /* BasketCell.swift */; };
+		E0AF286D1E5DEB9C001B7C68 /* BasketCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0AF286B1E5DEB9C001B7C68 /* BasketCell.xib */; };
+		E0AF28721E5F0C94001B7C68 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0AF28701E5F0C94001B7C68 /* CheckoutViewController.swift */; };
+		E0AF28731E5F0C94001B7C68 /* CheckoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0AF28711E5F0C94001B7C68 /* CheckoutViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +46,7 @@
 /* Begin PBXFileReference section */
 		E02935CE1E5B0F7D00892028 /* Edge5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Edge5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02935D11E5B0F7D00892028 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E02935D31E5B0F7D00892028 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E02935D61E5B0F7D00892028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E02935D81E5B0F7D00892028 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E02935DB1E5B0F7D00892028 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E02935DD1E5B0F7D00892028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E02935E21E5B0F7D00892028 /* Edge5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Edge5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02935E61E5B0F7D00892028 /* Edge5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge5Tests.swift; sourceTree = "<group>"; };
@@ -47,6 +54,19 @@
 		E02935ED1E5B0F7E00892028 /* Edge5UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Edge5UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E02935F11E5B0F7E00892028 /* Edge5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Edge5UITests.swift; sourceTree = "<group>"; };
 		E02935F31E5B0F7E00892028 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E02935FF1E5B0FCE00892028 /* ShopViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewController.swift; sourceTree = "<group>"; };
+		E02936001E5B0FCE00892028 /* ShopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopViewController.xib; sourceTree = "<group>"; };
+		E02936031E5B0FFE00892028 /* BasketViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		E02936041E5B0FFE00892028 /* BasketViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasketViewController.xib; sourceTree = "<group>"; };
+		E02936071E5B122100892028 /* Items.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Items.plist; sourceTree = "<group>"; };
+		E02936091E5B16AE00892028 /* ShopViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopViewCell.swift; sourceTree = "<group>"; };
+		E029360A1E5B16AE00892028 /* ShopViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShopViewCell.xib; sourceTree = "<group>"; };
+		E029360D1E5B1F2900892028 /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		E0AF28681E5B4CBA001B7C68 /* Basket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		E0AF286A1E5DEB9C001B7C68 /* BasketCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketCell.swift; sourceTree = "<group>"; };
+		E0AF286B1E5DEB9C001B7C68 /* BasketCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BasketCell.xib; sourceTree = "<group>"; };
+		E0AF28701E5F0C94001B7C68 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		E0AF28711E5F0C94001B7C68 /* CheckoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CheckoutViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +117,14 @@
 		E02935D01E5B0F7D00892028 /* Edge5 */ = {
 			isa = PBXGroup;
 			children = (
+				E0AF286F1E5EF2EC001B7C68 /* Cells */,
+				E0AF286E1E5EF2DB001B7C68 /* View Controllers */,
 				E02935D11E5B0F7D00892028 /* AppDelegate.swift */,
-				E02935D31E5B0F7D00892028 /* ViewController.swift */,
-				E02935D51E5B0F7D00892028 /* Main.storyboard */,
 				E02935D81E5B0F7D00892028 /* Assets.xcassets */,
-				E02935DA1E5B0F7D00892028 /* LaunchScreen.storyboard */,
+				E0AF28681E5B4CBA001B7C68 /* Basket.swift */,
 				E02935DD1E5B0F7D00892028 /* Info.plist */,
+				E02936071E5B122100892028 /* Items.plist */,
+				E029360D1E5B1F2900892028 /* LaunchScreen.xib */,
 			);
 			path = Edge5;
 			sourceTree = "<group>";
@@ -123,6 +145,30 @@
 				E02935F31E5B0F7E00892028 /* Info.plist */,
 			);
 			path = Edge5UITests;
+			sourceTree = "<group>";
+		};
+		E0AF286E1E5EF2DB001B7C68 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E02936031E5B0FFE00892028 /* BasketViewController.swift */,
+				E02936041E5B0FFE00892028 /* BasketViewController.xib */,
+				E0AF28701E5F0C94001B7C68 /* CheckoutViewController.swift */,
+				E0AF28711E5F0C94001B7C68 /* CheckoutViewController.xib */,
+				E02935FF1E5B0FCE00892028 /* ShopViewController.swift */,
+				E02936001E5B0FCE00892028 /* ShopViewController.xib */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		E0AF286F1E5EF2EC001B7C68 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E0AF286A1E5DEB9C001B7C68 /* BasketCell.swift */,
+				E0AF286B1E5DEB9C001B7C68 /* BasketCell.xib */,
+				E02936091E5B16AE00892028 /* ShopViewCell.swift */,
+				E029360A1E5B16AE00892028 /* ShopViewCell.xib */,
+			);
+			name = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +278,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02935DC1E5B0F7D00892028 /* LaunchScreen.storyboard in Resources */,
+				E0AF28731E5F0C94001B7C68 /* CheckoutViewController.xib in Resources */,
+				E02936021E5B0FCE00892028 /* ShopViewController.xib in Resources */,
+				E02936061E5B0FFE00892028 /* BasketViewController.xib in Resources */,
 				E02935D91E5B0F7D00892028 /* Assets.xcassets in Resources */,
-				E02935D71E5B0F7D00892028 /* Main.storyboard in Resources */,
+				E0AF286D1E5DEB9C001B7C68 /* BasketCell.xib in Resources */,
+				E029360C1E5B16AE00892028 /* ShopViewCell.xib in Resources */,
+				E029360E1E5B1F2900892028 /* LaunchScreen.xib in Resources */,
+				E02936081E5B122100892028 /* Items.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +310,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E02935D41E5B0F7D00892028 /* ViewController.swift in Sources */,
+				E02936051E5B0FFE00892028 /* BasketViewController.swift in Sources */,
+				E0AF286C1E5DEB9C001B7C68 /* BasketCell.swift in Sources */,
 				E02935D21E5B0F7D00892028 /* AppDelegate.swift in Sources */,
+				E029360B1E5B16AE00892028 /* ShopViewCell.swift in Sources */,
+				E02936011E5B0FCE00892028 /* ShopViewController.swift in Sources */,
+				E0AF28691E5B4CBA001B7C68 /* Basket.swift in Sources */,
+				E0AF28721E5F0C94001B7C68 /* CheckoutViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +350,6 @@
 			targetProxy = E02935EE1E5B0F7E00892028 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		E02935D51E5B0F7D00892028 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E02935D61E5B0F7D00892028 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		E02935DA1E5B0F7D00892028 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E02935DB1E5B0F7D00892028 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		E02935F41E5B0F7E00892028 /* Debug */ = {
@@ -505,6 +542,7 @@
 				E02935F81E5B0F7E00892028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E02935F91E5B0F7E00892028 /* Build configuration list for PBXNativeTarget "Edge5Tests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +551,7 @@
 				E02935FB1E5B0F7E00892028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E02935FC1E5B0F7E00892028 /* Build configuration list for PBXNativeTarget "Edge5UITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +560,7 @@
 				E02935FE1E5B0F7E00892028 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
